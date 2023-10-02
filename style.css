@@ -1,0 +1,60 @@
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+.navbar {
+    background-color: #e1bc41;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #e1bc41;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-modelos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #e1bc41;
+}
+
+.section-title {
+    font-family: 'Rubik Dirt', cursive;
+}
+
+#sobre-as-cabanas, #nossos-modelos {
+    background-color: #fdf4d5;
+}
+
+.text-colored {
+    color: #e1bc41;
+}
+
+.nav-modelos .nav-link.active,
+#fazer-orcamento button {
+    background-color: #e1bc41;
+    color: #fff;
+}
+
+.nav-modelos .nav-link:hover {
+    color: #e1bc41;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

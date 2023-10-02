@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabanas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class=" fs-2 navbar-brand m-0 section-title display-1">Cabanas de Madeira</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-as-cabanas" class="nav-link">
+                            <i class="bi bi-houses-fill"></i>
+                            Sobre as cabanas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#qualquer-epoca" class="nav-link">
+                            <i class="bi bi-house-gear-fill"></i>
+                            Qualquer época
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#nossos-modelos" class="nav-link">
+                            <i class="bi bi-house-down-fill"></i>
+                            Nossos modelos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fazer-orcamento" class="nav-link">
+                            <i class="bi bi-house-heart-fill"></i>
+                            Fazer orçamento
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-as-cabanas">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./slides/cabana11920.png" alt="Foto cabana de madeira telhado verde">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./slides/cabana21920.png" alt="Foto cabana de madeira com chaminé">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./slides/cabana31920.png" alt="Foto cabana de madeira com jardim">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./sobre/cabana-interior.jpeg" class="d-block w-100 rounded" alt="Foto do interior da cabana">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title fs-1">Sobre <span class="text-colored">as cabanas</span></h2>
+                            <p class="fs-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus suscipit dolore in, at praesentium voluptatem laborum iure atque unde assumenda optio quam quidem, laudantium aliquid, voluptas recusandae vel vero excepturi!
+                            </p>
+                            <h3 class="section-title">Espaço <span class="text-colored">interior</span></h3>
+                            <p class="fs-5">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias minus atque eligendi quae totam, nisi vel porro necessitatibus est beatae animi omnis laborum maiores at optio, ducimus facere! Nobis, ut!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>         
+        </section>
+        <section id="qualquer-epoca" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fs-1">Para todas <span class="text-colored">as épocas do ano</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./sobre/cabana-verao.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-3">
+                            <i class="bi bi-sun-fill"></i>
+                            Verão
+                        </h3>
+                        <p class="fs-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, illo optio necessitatibus quia doloribus quis vel consequatur, excepturi eius minima, aut ab totam saepe similique minus et quos voluptates. Natus.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./sobre/cabana-inverno.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-3">
+                            <i class="bi bi-cloud-lightning-rain-fill"></i>
+                            Inverno
+                        </h3>
+                        <p class="fs-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, illo optio necessitatibus quia doloribus quis vel consequatur, excepturi eius minima, aut ab totam saepe similique minus et quos voluptates. Natus.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./sobre/cabana-primavera.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-3">
+                            <i class="bi bi-flower1"></i>
+                            Primavera
+                        </h3>
+                        <p class="fs-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, illo optio necessitatibus quia doloribus quis vel consequatur, excepturi eius minima, aut ab totam saepe similique minus et quos voluptates. Natus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nossos-modelos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 fs-1">
+                        Nossos <span class="text-colored">modelos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-modelos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cabanas-de-inverno" class="fw-bold text-start nav-link text-colored active fs-5">Cabanas de Inverno</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cabanas-de-sol" class="fw-bold text-start nav-link text-colored fs-5">Cabanas de Sol</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pequenos-grupos" class="fw-bold text-start nav-link text-colored fs-5">Pequenos Grupos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#grandes-familias" class="fw-bold text-start nav-link text-colored fs-5">Grandes Famílias</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#luxuosas" class="fw-bold text-start nav-link text-colored fs-5">Luxuosas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="cabanas-de-inverno">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/inverno1.jpg" alt="Inverno-1" />
+                                        <h5 class="text-colored fw-bold mt-2">Inverno-1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/inverno2.jpg" alt="Inverno-2"/>
+                                        <h5 class="text-colored fw-bold mt-2">Inverno-2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/inverno3.jpg" alt="Inverno-3"/>
+                                        <h5 class="text-colored fw-bold mt-2">Inverno-3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/inverno4.jpg" alt="Inverno-4"/>
+                                        <h5 class="text-colored fw-bold mt-2">Inverno-4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cabanas-de-sol">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/sol1.jpg" alt="Arejado-1" />
+                                        <h5 class="text-colored fw-bold mt-2">Arejado-1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/sol2.jpg" alt="Arejado-2"/>
+                                        <h5 class="text-colored fw-bold mt-2">Arejado-2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>  
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/sol3.jpg" alt="Arejado-3"/>
+                                        <h5 class="text-colored fw-bold mt-2">Arejado-3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>                                  
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pequenos-grupos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/pequena1.jpg" alt="Small-1" />
+                                        <h5 class="text-colored fw-bold mt-2">Small-1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/pequena2.jpg" alt="Small-2" />
+                                        <h5 class="text-colored fw-bold mt-2">Small-2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/pequena4.jpg" alt="Small-3" />
+                                        <h5 class="text-colored fw-bold mt-2">Small-3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>                                   
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="grandes-familias">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/grande2.jpg" alt="Big-1" />
+                                        <h5 class="text-colored fw-bold mt-2">Big-1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/grande4.jpg" alt="Big-2" />
+                                        <h5 class="text-colored fw-bold mt-2">Big-2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/grande5.jpg" alt="Big-3" />
+                                        <h5 class="text-colored fw-bold mt-2">Big-3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>                                                                                                                                         
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="luxuosas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/luxo1.jpg" alt="Luxury Cabin-1" />
+                                        <h5 class="text-colored fw-bold mt-2">Luxury Cabin-1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/luxo2.webp" alt="Luxury Cabin-2" />
+                                        <h5 class="text-colored fw-bold mt-2">Luxury Cabin-2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/modelos/luxo4.jpeg" alt="Luxury Cabin-3" />
+                                        <h5 class="text-colored fw-bold mt-2">Luxury Cabin-3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, et.
+                                        </p>
+                                    </div>                                                                                                                                         
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fazer-orcamento" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fs-1">Fazer <span class="text-colored">orçamento</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">                                
+                                <i class="bi bi-house"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-house-check-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo, nº 123, Bairro Bootstrap - Goiânia - GO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
